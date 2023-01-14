@@ -29,12 +29,12 @@ public class DBService {
 
 	
 	public void instaciaDB() {
-		Tecnico tec1 = new Tecnico(null, "José", "15339513068", "jose@email.com", "123");
+		Tecnico tec1 = new Tecnico(null, "Caio", "29651958073", "caio@email.com", "123");
 		tec1.addPerfil(Perfil.ADMIN);
 		
-		Cliente cli1 = new Cliente(null, "Maria", "06862393006", "maria@email.com", "123");
+		Cliente cli1 = new Cliente(null, "Lia", "86355939016", "lia@email.com", "123");
 		
-		Chamado c1 = new Chamado(null, Prioridade.BAIXA, Status.ANDAMENTO, "Chamado 02", "Segundo chamado", tec1, cli1);
+		Chamado c1 = new Chamado(null, Prioridade.ALTA, Status.ANDAMENTO, "Chamado 4", "teste chamado 4", tec1, cli1);
 		
 		tecnicoRepository.saveAll(Arrays.asList(tec1));
 		clienteRepository.saveAll(Arrays.asList(cli1));

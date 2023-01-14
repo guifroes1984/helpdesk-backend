@@ -10,7 +10,7 @@ import com.guilherme.helpdesk.services.DBService;
 
 @Configuration
 @Profile("dev")
-public class DevConfig2 {
+public class DevConfig {
 	
 	@Autowired
 	private DBService dbService;
