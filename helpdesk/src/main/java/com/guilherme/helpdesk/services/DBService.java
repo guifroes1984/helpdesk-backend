@@ -33,7 +33,7 @@ public class DBService {
 		tec1.addPerfil(Perfil.ADMIN);
 		Tecnico tec2 = new Tecnico(null, "Richard Stall", "903.347.070-56", "stallman@email.com", encoder.encode("123"));
 		Tecnico tec3 = new Tecnico(null, "Claude", "271.068.470-54", "claude@email.com", encoder.encode("123"));
-		Tecnico tec4 = new Tecnico(null, "Tim", "162.720.120-39", "tim@email.com", encoder.encode("123"));
+		Tecnico tec4 = new Tecnico(null, "Tim", "162.720.120-39", "lee@mail.com", encoder.encode("123"));
 		Tecnico tec5 = new Tecnico(null, "Linus", "778.556.170-27", "linus@email.com", encoder.encode("123"));
 		
 		Cliente cli1 = new Cliente(null, "Albert", "111.661.890-74", "einsten@email.com", encoder.encode("123"));
